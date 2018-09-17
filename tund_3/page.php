@@ -46,13 +46,14 @@
 	
 	<?php
 	if (isset($_POST["firstName"])){
-	echo "<br><p>Olete elanud järgnevatel aastatel:</p>";
-	echo "<ul> \n";
-	for ($i = $_POST("birthYear"); $i <=date("Y"); $i ++){
+	  echo "<br><p>Olete elanud järgnevatel aastatel:</p>";
+	  echo "<ul> \n";
+	  for ($i = $_POST["birthYear"]; $i <=date("Y"); $i ++){
 		echo "<li>" . $i ."</li> \n";
-	}
+	  }
 		
-		echo "</ul> \n";
+	  echo "</ul> \n";
+	}
 	?>
 	
 	
